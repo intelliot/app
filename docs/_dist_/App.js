@@ -40,7 +40,7 @@ function create_fragment(ctx) {
 			img = element("img");
 			t0 = space();
 			p0 = element("p");
-			p0.innerHTML = `Edit <code class="svelte-1sqyd3v">src/App.svelte</code> and save to reload.`;
+			p0.innerHTML = `Edit <code class="svelte-1neo21n">src/App.svelte</code> and save to reload.`;
 			t4 = space();
 			p1 = element("p");
 			t5 = text("Page has been open for ");
@@ -49,16 +49,16 @@ function create_fragment(ctx) {
 			t7 = text(" seconds.");
 			t8 = space();
 			p2 = element("p");
-			p2.innerHTML = `<a class="App-link svelte-1sqyd3v" href="https://svelte.dev" target="_blank" rel="noopener noreferrer">Learn Svelte</a>`;
-			if (img.src !== (img_src_value = "/logo.svg")) attr(img, "src", img_src_value);
-			attr(img, "class", "App-logo svelte-1sqyd3v");
+			p2.innerHTML = `<a class="App-link svelte-1neo21n" href="https://svelte.dev" target="_blank" rel="noopener noreferrer">Learn Svelte</a>`;
+			if (img.src !== (img_src_value = "logo.svg")) attr(img, "src", img_src_value);
+			attr(img, "class", "App-logo svelte-1neo21n");
 			attr(img, "alt", "logo");
-			attr(p0, "class", "svelte-1sqyd3v");
-			attr(code1, "class", "svelte-1sqyd3v");
-			attr(p1, "class", "svelte-1sqyd3v");
-			attr(p2, "class", "svelte-1sqyd3v");
-			attr(header, "class", "App-header svelte-1sqyd3v");
-			attr(div, "class", "App svelte-1sqyd3v");
+			attr(p0, "class", "svelte-1neo21n");
+			attr(code1, "class", "svelte-1neo21n");
+			attr(p1, "class", "svelte-1neo21n");
+			attr(p2, "class", "svelte-1neo21n");
+			attr(header, "class", "App-header svelte-1neo21n");
+			attr(div, "class", "App svelte-1neo21n");
 		},
 		m(target, anchor) {
 			insert(target, div, anchor);

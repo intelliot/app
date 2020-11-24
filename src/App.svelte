@@ -8,7 +8,7 @@
 	  };
 	});
   </script>
-  
+
   <style>
 	:global(body) {
 	  margin: 0;
@@ -25,7 +25,7 @@
 	.App p {
 	  margin: 0.4rem;
 	}
-  
+
 	.App-header {
 	  background-color: #f9f6f6;
 	  color: #333;
@@ -54,10 +54,10 @@
 	  }
 	}
   </style>
-  
+
   <div class="App">
 	<header class="App-header">
-	  <img src="/logo.svg" class="App-logo" alt="logo" />
+	  <img src="logo.svg" class="App-logo" alt="logo" />
 	  <p>Edit <code>src/App.svelte</code> and save to reload.</p>
 	  <p>Page has been open for <code>{count}</code> seconds.</p>
 	  <p>
@@ -67,4 +67,3 @@
 	  </p>
 	</header>
   </div>
-  
