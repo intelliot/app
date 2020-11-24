@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build && cp -R build/ docs/",
+    "build": "snowpack build && cp -R build/ docs/ && touch docs/.nojekyll",
     "test": "web-test-runner \"src/**/*.test.ts\""
   },
   "dependencies": {
